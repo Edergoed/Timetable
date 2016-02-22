@@ -55,6 +55,11 @@ header('Location: http://timetable.deadlinesapp.io/mobile');
           sizes="57x57"
           rel="apple-touch-icon">
 
+    <!-- iPhone non-retina icon (iOS < 7) -->
+    <link href="files/favicon_60x60.png"
+          sizes="60x60"
+          rel="apple-touch-icon">
+
 	<link rel="icon" href="favicon.ico" type="image/x-icon">
 	<link rel="icon" sizes="300x300" href="favicon.png">
 	<meta name="theme-color" content="#1C1D1E">
