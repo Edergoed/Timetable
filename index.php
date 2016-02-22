@@ -21,43 +21,48 @@ header('Location: http://timetable.deadlinesapp.io/mobile');
           content="black">
 
 
-    <link href="http://timetable.deadlinesapp.io/files/favicon_152x152.png"
-          sizes="152x152"
-          rel="apple-touch-icon">
-
-    <!-- iPad retina icon (iOS < 7) -->
-    <link href="http://timetable.deadlinesapp.io/files/favicon_144x144.png"
-          sizes="144x144"
-          rel="apple-touch-icon">
-
-    <!-- iPad non-retina icon -->
-    <link href="http://timetable.deadlinesapp.io/files/favicon_76x76.png"
-          sizes="76x76"
-          rel="apple-touch-icon">
-
-    <!-- iPad non-retina icon (iOS < 7) -->
-    <link href="http://timetable.deadlinesapp.io/files/favicon_72x72.png"
-          sizes="72x72"
-          rel="apple-touch-icon">
-
-    <!-- iPhone 6 Plus icon -->
-    <link href="http://timetable.deadlinesapp.io/files/favicon_120x120.png"
-          sizes="120x120"
-          rel="apple-touch-icon">
-
-    <!-- iPhone retina icon (iOS < 7) -->
-    <link href="http://timetable.deadlinesapp.io/files/favicon_114x114.png"
-          sizes="114x114"
-          rel="apple-touch-icon">
-
     <!-- iPhone non-retina icon (iOS < 7) -->
-    <link href="http://timetable.deadlinesapp.io/files/favicon_57x57.png"
+    <link href="http://timetable.deadlinesapp.io/files/apple-touch-icon-57x57.png"
           sizes="57x57"
           rel="apple-touch-icon">
 
     <!-- iPhone non-retina icon (iOS < 7) -->
-    <link href="http://timetable.deadlinesapp.io/files/favicon_60x60.png"
+    <link href="http://timetable.deadlinesapp.io/files/apple-touch-icon-60x60.png"
           sizes="60x60"
+          rel="apple-touch-icon">
+
+    <!-- iPad non-retina icon (iOS < 7) -->
+    <link href="http://timetable.deadlinesapp.io/files/apple-touch-icon-72x72.png"
+          sizes="72x72"
+          rel="apple-touch-icon">
+
+    <!-- iPad non-retina icon -->
+    <link href="http://timetable.deadlinesapp.io/files/apple-touch-icon-76x76.png"
+          sizes="76x76"
+          rel="apple-touch-icon">
+
+    <!-- iPhone retina icon (iOS < 7) -->
+    <link href="http://timetable.deadlinesapp.io/files/apple-touch-icon-114x114.png"
+          sizes="114x114"
+          rel="apple-touch-icon">
+
+    <!-- iPhone 6 Plus icon -->
+    <link href="http://timetable.deadlinesapp.io/files/apple-touch-icon-120x120.png"
+          sizes="120x120"
+          rel="apple-touch-icon">
+
+    <link href="http://timetable.deadlinesapp.io/files/apple-touch-icon-152x152.png"
+          sizes="152x152"
+          rel="apple-touch-icon">
+
+    <!-- iPhone non-retina icon (iOS < 7) -->
+    <link href="http://timetable.deadlinesapp.io/files/apple-touch-icon-167x167.png"
+          sizes="167x167"
+          rel="apple-touch-icon">
+
+    <!-- iPhone non-retina icon (iOS < 7) -->
+    <link href="http://timetable.deadlinesapp.io/files/apple-touch-icon-180x180.png"
+          sizes="180x180"
           rel="apple-touch-icon">
 
 	<link rel="icon" href="favicon.ico" type="image/x-icon">
