@@ -21,37 +21,37 @@ header('Location: http://timetable.deadlinesapp.io/mobile');
           content="black">
 
 
-    <link href="files/favicon_152x152"
+    <link href="files/favicon_152x152.png"
           sizes="152x152"
           rel="apple-touch-icon">
 
     <!-- iPad retina icon (iOS < 7) -->
-    <link href="files/favicon_144x144"
+    <link href="files/favicon_144x144.png"
           sizes="144x144"
           rel="apple-touch-icon">
 
     <!-- iPad non-retina icon -->
-    <link href="files/favicon_76x76"
+    <link href="files/favicon_76x76.png"
           sizes="76x76"
           rel="apple-touch-icon">
 
     <!-- iPad non-retina icon (iOS < 7) -->
-    <link href="files/favicon_72x72"
+    <link href="files/favicon_72x72.png"
           sizes="72x72"
           rel="apple-touch-icon">
 
     <!-- iPhone 6 Plus icon -->
-    <link href="files/favicon_120x120"
+    <link href="files/favicon_120x120.png"
           sizes="120x120"
           rel="apple-touch-icon">
 
     <!-- iPhone retina icon (iOS < 7) -->
-    <link href="files/favicon_114x114"
+    <link href="files/favicon_114x114.png"
           sizes="114x114"
           rel="apple-touch-icon">
 
     <!-- iPhone non-retina icon (iOS < 7) -->
-    <link href="files/favicon_57x57"
+    <link href="files/favicon_57x57.png"
           sizes="57x57"
           rel="apple-touch-icon">
 
@@ -83,7 +83,7 @@ header('Location: http://timetable.deadlinesapp.io/mobile');
 		<div id="links-docent" class="menuoff"></div>
 	</div>
 	<div class="content">
-			
+
 		<div class="load_container">
 			<div class="load_wrapper"><div class='loading'></div></div>
 			<div class='deadlines'>Deadlines coming soon</div>
@@ -115,7 +115,7 @@ header('Location: http://timetable.deadlinesapp.io/mobile');
 		var links = $('.school a');
 		var listlinks = '';
 		var classes = ["G&I1A", "G&I1B", "G&I1C", "G&I1D", "GAR2-A", "GAR2-B", "GAR2-C", "GAR2-D", "GDD2-A", "GDD2-B", "IAD2-A", "IAD2-B", "UU-Minor1", "UU-Minor2", "Jaar 3 G&I", "Jaar 4 G&I"];
-		
+
 		for(var i=0; i<links.length; i++) {
 			    linkdestinations.push(links[i].href.substr(links[i].href.lastIndexOf('/') + 1));
 			    linknames.push(links[i].textContent);
@@ -131,7 +131,7 @@ header('Location: http://timetable.deadlinesapp.io/mobile');
 		var links_d = $('.school-docent a');
 		var listlinks_d = '';
 		var overzicht = "Overzichtspagina";
-		
+
 		for(var i=0; i<links_d.length; i++) {
 			    linkdestinations_d.push(links_d[i].href.substr(links_d[i].href.lastIndexOf('/') + 1));
 			    linknames_d.push(links_d[i].textContent);
