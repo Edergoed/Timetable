@@ -22,27 +22,27 @@ header('Location: http://timetable.deadlinesapp.io/mobile');
 
 
     <!-- iPhone non-retina icon (iOS < 7) -->
-    <link href="http://timetable.deadlinesapp.io/files/apple-touch-icon-57x57.png"
+    <link href="http://timetable.deadlinesapp.io/apple-touch-icon-57x57.png"
           sizes="57x57"
           rel="apple-touch-icon">
 
     <!-- iPhone non-retina icon (iOS < 7) -->
-    <link href="http://timetable.deadlinesapp.io/files/apple-touch-icon-60x60.png"
+    <link href="http://timetable.deadlinesapp.io/apple-touch-icon-60x60.png"
           sizes="60x60"
           rel="apple-touch-icon">
 
     <!-- iPad non-retina icon (iOS < 7) -->
-    <link href="http://timetable.deadlinesapp.io/files/apple-touch-icon-72x72.png"
+    <link href="http://timetable.deadlinesapp.io/apple-touch-icon-72x72.png"
           sizes="72x72"
           rel="apple-touch-icon">
 
     <!-- iPad non-retina icon -->
-    <link href="http://timetable.deadlinesapp.io/files/apple-touch-icon-76x76.png"
+    <link href="http://timetable.deadlinesapp.io/apple-touch-icon-76x76.png"
           sizes="76x76"
           rel="apple-touch-icon">
 
     <!-- iPhone retina icon (iOS < 7) -->
-    <link href="http://timetable.deadlinesapp.io/files/apple-touch-icon-114x114.png"
+    <link href="http://timetable.deadlinesapp.io/apple-touch-icon-114x114.png"
           sizes="114x114"
           rel="apple-touch-icon">
 
@@ -51,17 +51,17 @@ header('Location: http://timetable.deadlinesapp.io/mobile');
           sizes="120x120"
           rel="apple-touch-icon">
 
-    <link href="http://timetable.deadlinesapp.io/files/apple-touch-icon-152x152.png"
+    <link href="http://timetable.deadlinesapp.io/apple-touch-icon-152x152.png"
           sizes="152x152"
           rel="apple-touch-icon">
 
     <!-- iPhone non-retina icon (iOS < 7) -->
-    <link href="http://timetable.deadlinesapp.io/files/apple-touch-icon-167x167.png"
+    <link href="http://timetable.deadlinesapp.io/apple-touch-icon-167x167.png"
           sizes="167x167"
           rel="apple-touch-icon">
 
     <!-- iPhone non-retina icon (iOS < 7) -->
-    <link href="http://timetable.deadlinesapp.io/files/apple-touch-icon-180x180.png"
+    <link href="http://timetable.deadlinesapp.io/apple-touch-icon-180x180.png"
           sizes="180x180"
           rel="apple-touch-icon">
 
