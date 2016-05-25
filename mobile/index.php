@@ -1,9 +1,10 @@
+<!-- Easter Egg -->
 <html>
 	<head>
 		<title>HKU Timetable</title>
-		<link href="styles/mobile.css?v=1.3" rel="stylesheet" type="text/css">
+		<link href="styles/mobile.css?v=1.4" rel="stylesheet" type="text/css">
 		<script type="text/javascript" src="js/jquery.min.js"></script>
-		<script src="js/rooster.js?v=1.4"></script>
+		<script src="js/rooster.js?v=1.5"></script>
 
 	    <meta charset="UTF-8">
 		<meta name="description" content="Een alternatief voor het HKU Rooster gemaakt door Bobbie Goede.">
