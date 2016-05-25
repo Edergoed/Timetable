@@ -49,6 +49,40 @@
     opacity: 1; }
   100% {
     opacity: 0; } }
+@-webkit-keyframes slidein_r {
+    0% {
+      transform: translateX(0%); 
+      opacity: 0;
+    }
+    1% {
+      transform: translateX(+100%); 
+      opacity: 0;
+    }
+    100% {
+      transform: translateX(0%); 
+      opacity: 1;
+    } 
+  }
+@-webkit-keyframes slidein_l {
+    0% {
+      transform: translateX(-100%);
+      opacity: 0; 
+    }
+    100% {
+      transform: translateX(0%); 
+      opacity: 1;
+    } 
+  }
+  @-webkit-keyframes loading {
+0% {
+  -webkit-transform: scale(1.2,1.2); 
+  /*opacity: 1;*/
+}
+
+100% {
+  -webkit-transform: scale(1,1);
+  /*opacity: 0;*/
+  }}
 
 body{
   /*color: #fff;*/
@@ -120,8 +154,8 @@ nav a:hover{
 #curday{
   margin-top: 80px;
   text-align: center;
-  -webkit-animation: fadein .322s;
-  animation: fadein .322s;
+  /*-webkit-animation: fadein .322s;
+  animation: fadein .322s;*/
 }
 
 #menu_container{
@@ -208,9 +242,12 @@ nav a:hover{
   border-right: 6px solid rgba(0, 0, 0, 0.1);
   border-top: 6px solid rgba(0, 0, 0, 0.4);
   border-radius: 100%;*/
+
   background-image: url("../favicon.svg");
-  -webkit-animation: rot .6s infinite linear;
-  animation: rot .6s infinite linear;
+  -webkit-animation: loading .322s infinite alternate;
+  animation: loading .322s infinite alternate;
+  /*-webkit-animation: rot .6s infinite linear;*/
+  /*animation: rot .6s infinite linear;*/
   position: relative;
   margin-top: 160px;
 }
@@ -267,7 +304,18 @@ nav a:hover{
   /*background-color: #CCC;*/
   display: block;
   margin-top: 20px;
+  
 
+}
+
+.right > #curday > .les_blok{
+  -webkit-animation: slidein_r .322s;
+  animation: slidein_r .322s;
+}
+
+.left > #curday >.les_blok{
+  -webkit-animation: slidein_l .322s;
+  animation: slidein_l .322s;
 }
 
 .date_nav{

@@ -1,7 +1,7 @@
 $(document).ready(function() {
 	checkCookie();
 	getDate();
-
+	dir = 0;
 
 	$( '#hamburger' ).click(function() {
 		menu();
@@ -37,8 +37,14 @@ $(document).ready(function() {
 function changeDay(plus){
 	if(plus){
 		addDay++;
+		dir = 1;
+		$('#curday').addClass('.right');
+		$('#curday').removeClass('.left');
 	}else{
+		dir = 0;
 		addDay--;
+		$('#curday').removeClass('.right');
+		$('#curday').addClass('.left');
 	}
 	getDate();
 	showDay(today);
@@ -259,6 +265,16 @@ function showDay(today){
 	        	}
         	}
 
+        }).then(function (){
+        	if(dir){
+        		$('#mobile').removeClass('right');
+				$('#mobile').addClass('right');
+				$('#mobile').removeClass('left');
+			}else{
+				$('#mobile').removeClass('left');
+				$('#mobile').removeClass('right');
+				$('#mobile').addClass('left');
+			}
         });
 
         
