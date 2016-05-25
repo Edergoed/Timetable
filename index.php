@@ -96,7 +96,7 @@ header('Location: http://timetable.deadlinesapp.io/mobile');
 
 		<div class="load_container">
 			<div class="load_wrapper"><div class='loading'></div></div>
-			<div class='deadlines'>Deadlines coming soon</div>
+			<!-- <div class='deadlines'>Deadlines coming soon</div> -->
 		</div>
 
 	</div>
